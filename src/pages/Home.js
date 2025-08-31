@@ -14,7 +14,7 @@ export const Home = () => {
 
   useEffect(()=> {
     fetchEvents({keyword,city})
-  },[location.pathname])
+  },[location.pathname, city, keyword, fetchEvents])
 
   const handleSearch = async () => {
     fetchEvents({ keyword, city })
