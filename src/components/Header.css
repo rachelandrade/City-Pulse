@@ -1,0 +1,41 @@
+.header {
+  background-color: #222;
+  padding: 1rem;
+  color: white;
+}
+
+.nav {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.lang-toggle {
+  background: none;
+  border: 1px solid white;
+  color: white;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.lang-toggle:hover {
+  background-color: white;
+  color: #222;
+}
+
+.spacer {
+  display: flex;
+
+}

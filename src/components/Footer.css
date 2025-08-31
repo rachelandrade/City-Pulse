@@ -1,0 +1,9 @@
+.footer {
+    background-color: #222;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    border-top: 1px solid #ddd;
+    display: inline;
+}
